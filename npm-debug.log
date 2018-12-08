@@ -1,0 +1,347 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'i',
+1 verbose cli   '--save',
+1 verbose cli   'node',
+1 verbose cli   'modules' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData node
+8 silly fetchPackageMetaData modules
+9 silly fetchNamedPackageData node
+10 silly mapToRegistry name node
+11 silly mapToRegistry using default registry
+12 silly mapToRegistry registry https://registry.npmjs.org/
+13 silly mapToRegistry uri https://registry.npmjs.org/node
+14 silly fetchNamedPackageData modules
+15 silly mapToRegistry name modules
+16 silly mapToRegistry using default registry
+17 silly mapToRegistry registry https://registry.npmjs.org/
+18 silly mapToRegistry uri https://registry.npmjs.org/modules
+19 verbose request uri https://registry.npmjs.org/modules
+20 verbose request no auth needed
+21 info attempt registry request try #1 at 1:04:39 AM
+22 verbose request id 9f7403d2c7e2fee2
+23 verbose etag W/"cf516db77a9757aa6655cd1b4f904fa1"
+24 verbose lastModified Sun, 27 May 2018 08:23:15 GMT
+25 http request GET https://registry.npmjs.org/modules
+26 verbose request uri https://registry.npmjs.org/node
+27 verbose request no auth needed
+28 info attempt registry request try #1 at 1:04:39 AM
+29 verbose etag W/"fe650524d5174c2f0367cc5b29e1111b"
+30 verbose lastModified Tue, 04 Dec 2018 13:14:38 GMT
+31 http request GET https://registry.npmjs.org/node
+32 http 304 https://registry.npmjs.org/node
+33 verbose headers { date: 'Sat, 08 Dec 2018 00:04:39 GMT',
+33 verbose headers   connection: 'keep-alive',
+33 verbose headers   'set-cookie':
+33 verbose headers    [ '__cfduid=d00d39f37fa2e426658f96c1fdefdc3b31544227479; expires=Sun, 08-Dec-19 00:04:39 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+33 verbose headers   'cf-cache-status': 'HIT',
+33 verbose headers   'cache-control': 'max-age=300',
+33 verbose headers   'cf-ray': '485af9d2bddd546e-MAD',
+33 verbose headers   etag: '"fe650524d5174c2f0367cc5b29e1111b"',
+33 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+33 verbose headers   'last-modified': 'Tue, 04 Dec 2018 13:14:38 GMT',
+33 verbose headers   vary: 'accept-encoding, accept',
+33 verbose headers   'x-amz-meta-rev': '442-1cf5eaaa807e04f4e2b0b572ef18dc30',
+33 verbose headers   server: 'cloudflare' }
+34 silly get cb [ 304,
+34 silly get   { date: 'Sat, 08 Dec 2018 00:04:39 GMT',
+34 silly get     connection: 'keep-alive',
+34 silly get     'set-cookie':
+34 silly get      [ '__cfduid=d00d39f37fa2e426658f96c1fdefdc3b31544227479; expires=Sun, 08-Dec-19 00:04:39 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+34 silly get     'cf-cache-status': 'HIT',
+34 silly get     'cache-control': 'max-age=300',
+34 silly get     'cf-ray': '485af9d2bddd546e-MAD',
+34 silly get     etag: '"fe650524d5174c2f0367cc5b29e1111b"',
+34 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+34 silly get     'last-modified': 'Tue, 04 Dec 2018 13:14:38 GMT',
+34 silly get     vary: 'accept-encoding, accept',
+34 silly get     'x-amz-meta-rev': '442-1cf5eaaa807e04f4e2b0b572ef18dc30',
+34 silly get     server: 'cloudflare' } ]
+35 verbose etag https://registry.npmjs.org/node from cache
+36 verbose get saving node to /home/gonzalo/.npm/registry.npmjs.org/node/.cache.json
+37 http 304 https://registry.npmjs.org/modules
+38 verbose headers { date: 'Sat, 08 Dec 2018 00:04:39 GMT',
+38 verbose headers   connection: 'keep-alive',
+38 verbose headers   'set-cookie':
+38 verbose headers    [ '__cfduid=d4850791fe11a305e264bd0044c0958221544227479; expires=Sun, 08-Dec-19 00:04:39 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+38 verbose headers   'cf-cache-status': 'HIT',
+38 verbose headers   'cache-control': 'max-age=300',
+38 verbose headers   'cf-ray': '485af9d2ab76544a-MAD',
+38 verbose headers   etag: '"cf516db77a9757aa6655cd1b4f904fa1"',
+38 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+38 verbose headers   'last-modified': 'Sun, 27 May 2018 08:23:15 GMT',
+38 verbose headers   vary: 'accept-encoding, accept',
+38 verbose headers   server: 'cloudflare' }
+39 silly get cb [ 304,
+39 silly get   { date: 'Sat, 08 Dec 2018 00:04:39 GMT',
+39 silly get     connection: 'keep-alive',
+39 silly get     'set-cookie':
+39 silly get      [ '__cfduid=d4850791fe11a305e264bd0044c0958221544227479; expires=Sun, 08-Dec-19 00:04:39 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+39 silly get     'cf-cache-status': 'HIT',
+39 silly get     'cache-control': 'max-age=300',
+39 silly get     'cf-ray': '485af9d2ab76544a-MAD',
+39 silly get     etag: '"cf516db77a9757aa6655cd1b4f904fa1"',
+39 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+39 silly get     'last-modified': 'Sun, 27 May 2018 08:23:15 GMT',
+39 silly get     vary: 'accept-encoding, accept',
+39 silly get     server: 'cloudflare' } ]
+40 verbose etag https://registry.npmjs.org/modules from cache
+41 verbose get saving modules to /home/gonzalo/.npm/registry.npmjs.org/modules/.cache.json
+42 silly install normalizeTree
+43 silly loadCurrentTree Finishing
+44 silly loadIdealTree Starting
+45 silly install loadIdealTree
+46 silly cloneCurrentTree Starting
+47 silly install cloneCurrentTreeToIdealTree
+48 silly cloneCurrentTree Finishing
+49 silly loadShrinkwrap Starting
+50 silly install loadShrinkwrap
+51 silly loadShrinkwrap Finishing
+52 silly loadAllDepsIntoIdealTree Starting
+53 silly install loadAllDepsIntoIdealTree
+54 silly resolveWithNewModule modules@0.4.0 checking installable status
+55 silly cache add args [ 'modules', null ]
+56 verbose cache add spec modules
+57 silly resolveWithNewModule node@11.3.0 checking installable status
+58 silly cache add args [ 'node', null ]
+59 verbose cache add spec node
+60 silly cache add parsed spec Result {
+60 silly cache add   raw: 'modules',
+60 silly cache add   scope: null,
+60 silly cache add   name: 'modules',
+60 silly cache add   rawSpec: '',
+60 silly cache add   spec: 'latest',
+60 silly cache add   type: 'tag' }
+61 silly addNamed modules@latest
+62 verbose addNamed "latest" is being treated as a dist-tag for modules
+63 info addNameTag [ 'modules', 'latest' ]
+64 silly mapToRegistry name modules
+65 silly mapToRegistry using default registry
+66 silly mapToRegistry registry https://registry.npmjs.org/
+67 silly mapToRegistry uri https://registry.npmjs.org/modules
+68 verbose addNameTag registry:https://registry.npmjs.org/modules not in flight; fetching
+69 silly cache add parsed spec Result {
+69 silly cache add   raw: 'node',
+69 silly cache add   scope: null,
+69 silly cache add   name: 'node',
+69 silly cache add   rawSpec: '',
+69 silly cache add   spec: 'latest',
+69 silly cache add   type: 'tag' }
+70 silly addNamed node@latest
+71 verbose addNamed "latest" is being treated as a dist-tag for node
+72 info addNameTag [ 'node', 'latest' ]
+73 silly mapToRegistry name node
+74 silly mapToRegistry using default registry
+75 silly mapToRegistry registry https://registry.npmjs.org/
+76 silly mapToRegistry uri https://registry.npmjs.org/node
+77 verbose addNameTag registry:https://registry.npmjs.org/node not in flight; fetching
+78 verbose get https://registry.npmjs.org/modules not expired, no request
+79 silly addNameTag next cb for modules with tag latest
+80 silly addNamed modules@0.4.0
+81 verbose addNamed "0.4.0" is a plain semver version for modules
+82 verbose get https://registry.npmjs.org/node not expired, no request
+83 silly addNameTag next cb for node with tag latest
+84 silly addNamed node@11.3.0
+85 verbose addNamed "11.3.0" is a plain semver version for node
+86 silly cache afterAdd modules@0.4.0
+87 verbose afterAdd /home/gonzalo/.npm/modules/0.4.0/package/package.json not in flight; writing
+88 silly cache afterAdd node@11.3.0
+89 verbose afterAdd /home/gonzalo/.npm/node/11.3.0/package/package.json not in flight; writing
+90 verbose afterAdd /home/gonzalo/.npm/modules/0.4.0/package/package.json written
+91 verbose afterAdd /home/gonzalo/.npm/node/11.3.0/package/package.json written
+92 silly fetchNamedPackageData node-bin-setup
+93 silly mapToRegistry name node-bin-setup
+94 silly mapToRegistry using default registry
+95 silly mapToRegistry registry https://registry.npmjs.org/
+96 silly mapToRegistry uri https://registry.npmjs.org/node-bin-setup
+97 verbose request uri https://registry.npmjs.org/node-bin-setup
+98 verbose request no auth needed
+99 info attempt registry request try #1 at 1:04:39 AM
+100 verbose etag W/"696d6ec470fda56a33885508a280edab"
+101 verbose lastModified Sun, 27 May 2018 09:55:03 GMT
+102 http request GET https://registry.npmjs.org/node-bin-setup
+103 http 304 https://registry.npmjs.org/node-bin-setup
+104 verbose headers { date: 'Sat, 08 Dec 2018 00:04:39 GMT',
+104 verbose headers   connection: 'keep-alive',
+104 verbose headers   'set-cookie':
+104 verbose headers    [ '__cfduid=d00d39f37fa2e426658f96c1fdefdc3b31544227479; expires=Sun, 08-Dec-19 00:04:39 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+104 verbose headers   'cf-cache-status': 'HIT',
+104 verbose headers   'cache-control': 'max-age=300',
+104 verbose headers   'cf-ray': '485af9d39e0d546e-MAD',
+104 verbose headers   etag: '"696d6ec470fda56a33885508a280edab"',
+104 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+104 verbose headers   'last-modified': 'Sun, 27 May 2018 09:55:03 GMT',
+104 verbose headers   vary: 'accept-encoding, accept',
+104 verbose headers   server: 'cloudflare' }
+105 silly get cb [ 304,
+105 silly get   { date: 'Sat, 08 Dec 2018 00:04:39 GMT',
+105 silly get     connection: 'keep-alive',
+105 silly get     'set-cookie':
+105 silly get      [ '__cfduid=d00d39f37fa2e426658f96c1fdefdc3b31544227479; expires=Sun, 08-Dec-19 00:04:39 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+105 silly get     'cf-cache-status': 'HIT',
+105 silly get     'cache-control': 'max-age=300',
+105 silly get     'cf-ray': '485af9d39e0d546e-MAD',
+105 silly get     etag: '"696d6ec470fda56a33885508a280edab"',
+105 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+105 silly get     'last-modified': 'Sun, 27 May 2018 09:55:03 GMT',
+105 silly get     vary: 'accept-encoding, accept',
+105 silly get     server: 'cloudflare' } ]
+106 verbose etag https://registry.npmjs.org/node-bin-setup from cache
+107 verbose get saving node-bin-setup to /home/gonzalo/.npm/registry.npmjs.org/node-bin-setup/.cache.json
+108 silly resolveWithNewModule node-bin-setup@1.0.6 checking installable status
+109 silly cache add args [ 'node-bin-setup@^1.0.0', null ]
+110 verbose cache add spec node-bin-setup@^1.0.0
+111 silly cache add parsed spec Result {
+111 silly cache add   raw: 'node-bin-setup@^1.0.0',
+111 silly cache add   scope: null,
+111 silly cache add   name: 'node-bin-setup',
+111 silly cache add   rawSpec: '^1.0.0',
+111 silly cache add   spec: '>=1.0.0 <2.0.0',
+111 silly cache add   type: 'range' }
+112 silly addNamed node-bin-setup@>=1.0.0 <2.0.0
+113 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for node-bin-setup
+114 silly addNameRange { name: 'node-bin-setup',
+114 silly addNameRange   range: '>=1.0.0 <2.0.0',
+114 silly addNameRange   hasData: false }
+115 silly mapToRegistry name node-bin-setup
+116 silly mapToRegistry using default registry
+117 silly mapToRegistry registry https://registry.npmjs.org/
+118 silly mapToRegistry uri https://registry.npmjs.org/node-bin-setup
+119 verbose addNameRange registry:https://registry.npmjs.org/node-bin-setup not in flight; fetching
+120 verbose get https://registry.npmjs.org/node-bin-setup not expired, no request
+121 silly addNameRange number 2 { name: 'node-bin-setup',
+121 silly addNameRange   range: '>=1.0.0 <2.0.0',
+121 silly addNameRange   hasData: true }
+122 silly addNameRange versions [ 'node-bin-setup',
+122 silly addNameRange   [ '1.0.0', '1.0.1', '1.0.2', '1.0.3', '1.0.4', '1.0.6' ] ]
+123 silly addNamed node-bin-setup@1.0.6
+124 verbose addNamed "1.0.6" is a plain semver version for node-bin-setup
+125 silly cache afterAdd node-bin-setup@1.0.6
+126 verbose afterAdd /home/gonzalo/.npm/node-bin-setup/1.0.6/package/package.json not in flight; writing
+127 verbose afterAdd /home/gonzalo/.npm/node-bin-setup/1.0.6/package/package.json written
+128 silly loadAllDepsIntoIdealTree Finishing
+129 silly idealTree:prePrune Shindig
+129 silly idealTree:prePrune ├── modules@0.4.0
+129 silly idealTree:prePrune ├── node-bin-setup@1.0.6
+129 silly idealTree:prePrune └── node@11.3.0
+130 silly loadIdealTree Finishing
+131 silly currentTree Shindig
+131 silly currentTree └── modules@0.4.0
+132 silly idealTree Shindig
+132 silly idealTree ├── modules@0.4.0
+132 silly idealTree ├── node-bin-setup@1.0.6
+132 silly idealTree └── node@11.3.0
+133 silly generateActionsToTake Starting
+134 silly install generateActionsToTake
+135 silly generateActionsToTake Finishing
+136 silly diffTrees action count 2
+137 silly diffTrees add node-bin-setup@1.0.6
+138 silly diffTrees add node@11.3.0
+139 silly decomposeActions action count 16
+140 silly decomposeActions fetch node-bin-setup@1.0.6
+141 silly decomposeActions extract node-bin-setup@1.0.6
+142 silly decomposeActions test node-bin-setup@1.0.6
+143 silly decomposeActions preinstall node-bin-setup@1.0.6
+144 silly decomposeActions build node-bin-setup@1.0.6
+145 silly decomposeActions install node-bin-setup@1.0.6
+146 silly decomposeActions postinstall node-bin-setup@1.0.6
+147 silly decomposeActions finalize node-bin-setup@1.0.6
+148 silly decomposeActions fetch node@11.3.0
+149 silly decomposeActions extract node@11.3.0
+150 silly decomposeActions test node@11.3.0
+151 silly decomposeActions preinstall node@11.3.0
+152 silly decomposeActions build node@11.3.0
+153 silly decomposeActions install node@11.3.0
+154 silly decomposeActions postinstall node@11.3.0
+155 silly decomposeActions finalize node@11.3.0
+156 silly executeActions Starting
+157 silly install executeActions
+158 silly doSerial global-install 0
+159 silly doParallel fetch 2
+160 verbose lock using /home/gonzalo/.npm/_locks/staging-e79a2cdf676ffc58.lock for /home/gonzalo/IronHack-mod2/Shindig/node_modules/.staging
+161 silly doParallel extract 2
+162 silly extract node-bin-setup@1.0.6
+163 silly extract node@11.3.0
+164 verbose unbuild node_modules/.staging/node-bin-setup-3f08e13c
+165 verbose unbuild node_modules/.staging/node-08466e3e
+166 silly gentlyRm /home/gonzalo/IronHack-mod2/Shindig/node_modules/.staging/node-bin-setup-3f08e13c is being purged from base /home/gonzalo/IronHack-mod2/Shindig
+167 verbose gentlyRm don't care about contents; nuking /home/gonzalo/IronHack-mod2/Shindig/node_modules/.staging/node-bin-setup-3f08e13c
+168 verbose tar unpack /home/gonzalo/.npm/node-bin-setup/1.0.6/package.tgz
+169 verbose tar unpacking to /home/gonzalo/IronHack-mod2/Shindig/node_modules/.staging/node-bin-setup-3f08e13c
+170 silly gentlyRm /home/gonzalo/IronHack-mod2/Shindig/node_modules/.staging/node-bin-setup-3f08e13c is being purged
+171 verbose gentlyRm don't care about contents; nuking /home/gonzalo/IronHack-mod2/Shindig/node_modules/.staging/node-bin-setup-3f08e13c
+172 silly gentlyRm /home/gonzalo/IronHack-mod2/Shindig/node_modules/.staging/node-08466e3e is being purged from base /home/gonzalo/IronHack-mod2/Shindig
+173 verbose gentlyRm don't care about contents; nuking /home/gonzalo/IronHack-mod2/Shindig/node_modules/.staging/node-08466e3e
+174 silly gunzTarPerm modes [ '755', '644' ]
+175 verbose tar unpack /home/gonzalo/.npm/node/11.3.0/package.tgz
+176 verbose tar unpacking to /home/gonzalo/IronHack-mod2/Shindig/node_modules/.staging/node-08466e3e
+177 silly gentlyRm /home/gonzalo/IronHack-mod2/Shindig/node_modules/.staging/node-08466e3e is being purged
+178 verbose gentlyRm don't care about contents; nuking /home/gonzalo/IronHack-mod2/Shindig/node_modules/.staging/node-08466e3e
+179 silly gunzTarPerm modes [ '755', '644' ]
+180 silly gunzTarPerm extractEntry package.json
+181 silly gunzTarPerm extractEntry package.json
+182 silly gunzTarPerm extractEntry index.js
+183 silly gunzTarPerm extractEntry installArchSpecificPackage.js
+184 silly gunzTarPerm extractEntry README.md
+185 silly gentlyRm /home/gonzalo/IronHack-mod2/Shindig/node_modules/.staging/node-bin-setup-3f08e13c/node_modules is being purged
+186 verbose gentlyRm don't care about contents; nuking /home/gonzalo/IronHack-mod2/Shindig/node_modules/.staging/node-bin-setup-3f08e13c/node_modules
+187 silly gentlyRm /home/gonzalo/IronHack-mod2/Shindig/node_modules/.staging/node-08466e3e/node_modules is being purged
+188 verbose gentlyRm don't care about contents; nuking /home/gonzalo/IronHack-mod2/Shindig/node_modules/.staging/node-08466e3e/node_modules
+189 silly doParallel preinstall 2
+190 silly preinstall node-bin-setup@1.0.6 /home/gonzalo/IronHack-mod2/Shindig/node_modules/.staging/node-bin-setup-3f08e13c
+191 info lifecycle node-bin-setup@1.0.6~preinstall: node-bin-setup@1.0.6
+192 silly preinstall node@11.3.0 /home/gonzalo/IronHack-mod2/Shindig/node_modules/.staging/node-08466e3e
+193 info lifecycle node@11.3.0~preinstall: node@11.3.0
+194 silly lifecycle node-bin-setup@1.0.6~preinstall: no script for preinstall, continuing
+195 warn lifecycle node@11.3.0~preinstall: cannot run in wd %s %s (wd=%s) node@11.3.0 node installArchSpecificPackage /home/gonzalo/IronHack-mod2/Shindig/node_modules/.staging/node-08466e3e
+196 silly doReverseSerial remove 0
+197 silly doSerial move 0
+198 silly doSerial finalize 2
+199 silly finalize /home/gonzalo/IronHack-mod2/Shindig/node_modules/node-bin-setup
+200 silly finalize /home/gonzalo/IronHack-mod2/Shindig/node_modules/node
+201 silly doSerial build 2
+202 silly build node-bin-setup@1.0.6
+203 info linkStuff node-bin-setup@1.0.6
+204 silly linkStuff node-bin-setup@1.0.6 has /home/gonzalo/IronHack-mod2/Shindig/node_modules as its parent node_modules
+205 verbose linkBins node-bin-setup@1.0.6
+206 verbose linkMans node-bin-setup@1.0.6
+207 silly build node@11.3.0
+208 info linkStuff node@11.3.0
+209 silly linkStuff node@11.3.0 has /home/gonzalo/IronHack-mod2/Shindig/node_modules as its parent node_modules
+210 verbose linkBins node@11.3.0
+211 verbose link bins [ { node: 'bin/node' },
+211 verbose link bins   '/home/gonzalo/IronHack-mod2/Shindig/node_modules/.bin',
+211 verbose link bins   false ]
+212 verbose linkMans node@11.3.0
+213 verbose unlock done using /home/gonzalo/.npm/_locks/staging-e79a2cdf676ffc58.lock for /home/gonzalo/IronHack-mod2/Shindig/node_modules/.staging
+214 silly rollbackFailedOptional Starting
+215 silly rollbackFailedOptional Finishing
+216 silly runTopLevelLifecycles Starting
+217 silly runTopLevelLifecycles Finishing
+218 silly install printInstalled
+219 warn enoent ENOENT: no such file or directory, open '/home/gonzalo/IronHack-mod2/Shindig/package.json'
+220 warn Shindig No description
+221 warn Shindig No repository field.
+222 warn Shindig No README data
+223 warn Shindig No license field.
+224 verbose stack Error: ENOENT: no such file or directory, chmod '/home/gonzalo/IronHack-mod2/Shindig/node_modules/node/bin/node'
+225 verbose cwd /home/gonzalo/IronHack-mod2/Shindig
+226 error Linux 4.15.0-42-generic
+227 error argv "/usr/bin/node" "/usr/bin/npm" "i" "--save" "node" "modules"
+228 error node v8.10.0
+229 error npm  v3.5.2
+230 error path /home/gonzalo/IronHack-mod2/Shindig/node_modules/node/bin/node
+231 error code ENOENT
+232 error errno -2
+233 error syscall chmod
+234 error enoent ENOENT: no such file or directory, chmod '/home/gonzalo/IronHack-mod2/Shindig/node_modules/node/bin/node'
+235 error enoent ENOENT: no such file or directory, chmod '/home/gonzalo/IronHack-mod2/Shindig/node_modules/node/bin/node'
+235 error enoent This is most likely not a problem with npm itself
+235 error enoent and is related to npm not being able to find a file.
+236 verbose exit [ -2, true ]
